@@ -8,6 +8,7 @@ import Review from './Components/Review';
 import Partner from './Components/Partner';
 import Contact from './Components/Contact';
 import Navbar from './Components/Navbar';
+import About from './Components/About';
 
 
 
@@ -17,6 +18,7 @@ function App() {
     <div className='bg-slate-300' >
   <Navbar/>
       <Banner/>
+      <About/>
       <Service/>
       <Courses/>
       <Whychoose/>

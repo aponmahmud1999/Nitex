@@ -2,7 +2,12 @@ import React from 'react';
 
 const Courses = () => {
     return (
-        <div className='md:flex md:justify-between mx-[10%] '>
+     <div>
+        <h1 className="text-center text-[2rem] lg:text-[2.8rem]  font-bold text-transparent bg-clip-text bg-gradient-to-r pb-[2%] md:pb-[5%]   from-[#0e48c5] to-[#a66cff]">
+            Our Courses
+          </h1>
+           <div className='md:flex md:justify-between mx-[10%] '>
+            
 
             {
                 [1,2,3].map((i)=><div key={i} className='md:my-0 my-10' >
@@ -55,6 +60,7 @@ const Courses = () => {
           
            
         </div>
+     </div>
     );
 };
 

@@ -3,9 +3,9 @@ import React from 'react';
 const Contact = () => {
     return (
         <div className='bg-[#040d22] py-[5%]'>
-               <h1 className="text-[35xl] text-center font-bold font-mono  lg:text-[50px] text-white">
-            Contact US
-          </h1>  
+              <h1 className="text-center text-[2rem] lg:text-[2.8rem]  font-bold text-white">
+            Contact Us
+          </h1> 
       <div className=" lg:grid lg:grid-cols-2 ">
         <div
           className=" flex flex-col md:pl-[5%] justify-center "

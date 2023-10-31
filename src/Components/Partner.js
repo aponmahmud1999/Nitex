@@ -60,8 +60,10 @@ const Partner = () => {
       ];
      
       return (
-        <div className='p-[5%]' data-aos="fade-right">
-            <p className='md:text-6xl text-xl text-center font-bold font-mono text-red-500'>Our Partner</p>
+        <div data-aos="fade-right">
+           <h1 className="text-center text-[2rem] lg:text-[2.8rem]  font-bold text-transparent bg-clip-text bg-gradient-to-r   from-[#0e48c5] to-[#a66cff]">
+            Our Partner
+          </h1>
           <div className=''>
           <Swiper
           
