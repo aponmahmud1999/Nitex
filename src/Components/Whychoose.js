@@ -3,7 +3,7 @@ import ques from './Images/Why choose us images.png'
 
 const Whychoose = () => {
     return (
-        <div className="bg-[url('/public/Images/choose-bg.png')]"
+        <div id='why' className="bg-[url('/public/Images/choose-bg.png')] md:py-[5%]"
         data-aos="fade-up"
         style={{
          

@@ -5,7 +5,7 @@ import infocard from "./Images/infocard.webp";
 const About = () => {
 
   return (
-    <div className=" mb-[50px]" data-aos="fade-up">
+    <div id="about" className=" mb-[50px]" data-aos="fade-up">
       <div className="lg:flex rounded-xl bg-base-100 shadow-2xl w-[90%]  mt-[50px] mx-auto py-[50px] px-[25px]">
         <div className="lg:w-[45%] px-[2%] lg:px-[5%]">
           <h2 className="text-[28px] font-bold text-transparent bg-clip-text bg-gradient-to-r   from-[#0e48c5] to-[#a66cff]">

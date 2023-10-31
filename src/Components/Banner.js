@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect'
 const Banner = () => {
     return (
         <div>
-            <div className="bg-[url('/public/Images/bannerBG.png')] bg-no-repeat bg-cover">
+            <div className="bg-[url('/public/Images/bannerBG.png')] md:pt-[5%] bg-no-repeat bg-cover">
             <div className="lg:flex lg:mx-[7%] ">
        
           <div className="w-full lg:w-[50%] px-[5%] lg:px-0">

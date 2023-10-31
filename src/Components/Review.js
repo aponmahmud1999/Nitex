@@ -58,7 +58,7 @@ const Review = () => {
         },
       ];
   return (
-    <div className="md:flex mx-[5%] md:gap-x-[1%] lg:gap-x-[3%] pb-[10%]">
+    <div id="review" className="md:flex mx-[5%] md:gap-x-[1%] lg:gap-x-[3%] pb-[10%]">
     
       <h1 className="md:hidden text-center text-[2rem] lg:text-[2.8rem]  font-bold text-transparent bg-clip-text bg-gradient-to-r   from-[#0e48c5] to-[#a66cff]">
         CLient Review

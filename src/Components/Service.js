@@ -65,7 +65,7 @@ const Service = () => {
       ];
      
       return (
-        <div className='p-[5%]' data-aos="fade-right">
+        <div id='Service' className='p-[5%]' data-aos="fade-right">
            <h1 className="text-center text-[2rem] lg:text-[2.8rem]  font-bold text-transparent bg-clip-text bg-gradient-to-r   from-[#0e48c5] to-[#a66cff]">
             Our Services
           </h1>

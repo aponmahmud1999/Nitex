@@ -22,9 +22,9 @@ const Footer = () => {
   <div>
     <span className="footer-title">Services</span> 
     <li  className='hover:border-b pb-2 border-white'> <Link to='/' >About</Link></li>
-    <li  className='hover:border-b pb-2 border-white'> <Link to='/'  >Rocket</Link></li>
-    <li  className='hover:border-b pb-2 border-white'> <Link to='/' >Cubesat</Link></li>
-    <li  className='hover:border-b pb-2 border-white'> <Link to='/' >Drone Technology</Link></li>
+    <li  className='hover:border-b pb-2 border-white'> <Link to='/'  >Service</Link></li>
+    <li  className='hover:border-b pb-2 border-white'> <Link to='/' >Course</Link></li>
+    <li  className='hover:border-b pb-2 border-white'> <Link to='/' > Partners</Link></li>
   </div> 
 
   <div>
