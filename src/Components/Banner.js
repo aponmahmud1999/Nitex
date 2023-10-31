@@ -27,7 +27,7 @@ const Banner = () => {
                 }}
               />
             </h1>
-            <p className="py-6 text-xs md:text-xl text-[#888]">
+            <p className="py-6 text-xs md:text-xl text-[#888] md:pb-[10%]">
               At Nitex, We specialise in providing web Development, Video
               Editing Services, Personal Development,CV Writing and yes of course! many more
               things.
