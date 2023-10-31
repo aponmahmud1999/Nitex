@@ -9,11 +9,18 @@ import Partner from './Components/Partner';
 import Contact from './Components/Contact';
 import Navbar from './Components/Navbar';
 import About from './Components/About';
+import Footer from './Components/Footer';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 
 
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+    }, [])
   return (
     <div className='bg-slate-300' >
   <Navbar/>
@@ -25,6 +32,7 @@ function App() {
       <Review/>
       <Partner/>
       <Contact/>
+      <Footer/>
       
       
       
