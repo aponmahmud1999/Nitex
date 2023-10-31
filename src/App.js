@@ -5,6 +5,7 @@ import Service from './Components/Service';
 import Courses from './Components/Courses';
 import Whychoose from './Components/Whychoose';
 import Review from './Components/Review';
+import Partner from './Components/Partner';
 
 
 
@@ -16,6 +17,7 @@ function App() {
       <Courses/>
       <Whychoose/>
       <Review/>
+      <Partner/>
       
       
       
