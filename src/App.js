@@ -4,6 +4,7 @@ import Banner from './Components/Banner';
 import Service from './Components/Service';
 import Courses from './Components/Courses';
 import Whychoose from './Components/Whychoose';
+import Review from './Components/Review';
 
 
 
@@ -14,6 +15,7 @@ function App() {
       <Service/>
       <Courses/>
       <Whychoose/>
+      <Review/>
       
       
       
